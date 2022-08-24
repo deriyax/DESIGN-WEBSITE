@@ -1,0 +1,198 @@
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+#maincontainer {
+
+max-width: 85%;
+margin: auto;
+
+}
+
+
+* {
+  font-family: "Poppins";
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 50px;
+  box-shadow: 0 1px 8px #ddd;
+}
+
+#nav-title {
+  color: #0277fc;
+  margin-right: auto;
+  font-size: 1.5em;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #555;
+  transition: all 0.3s ease 0s;
+}
+
+header li a {
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+  padding: 7px 13px;
+  text-transform: uppercase;
+}
+
+
+
+a.active,
+a:hover {
+  color: white;
+  background-color: #0277fc;
+}
+
+.halfleft {
+
+  margin-right: 10%;
+
+}
+
+.halfleft {
+
+  margin-left: 10%;
+
+}
+
+.section {
+  margin-bottom: 2em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.section > div {
+  margin: auto;
+ 
+}
+
+.half {
+  width: 50%;
+}
+
+
+#section2 {
+  position: relative;
+  text-align: right;
+  bottom: 2em;
+}
+#section4 {
+
+  height: 10%;
+}
+
+#section5 {
+  padding-top: 1em;
+}
+
+.blue {
+  color: rgb(2 119 252);
+}
+
+
+#mycentertext {
+  text-align: center;
+}
+
+
+
+.centeredtext {
+  word-wrap: break-word;
+  max-width: 100%;
+  margin: auto;
+  display: inline-block;
+  text-align: left;
+}
+
+.userinfobox {
+  text-align: left !important;
+
+}
+
+.userinfobox > img {
+  text-align: left;
+  height: 2em;
+  width: 2em;
+}
+
+.userinfobox > * {
+  text-align: left;
+}
+
+div img {
+
+  max-width: 100%;
+
+}
+
+
+.paddingsides {
+
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.textright {
+
+  text-align: right;
+}
+
+button {
+  border: 0px;
+  color: white;
+  background-color: #0277fc;
+  font-size: 1em;
+  padding: 0.25em 1em;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+
+.map-responsive{
+
+  overflow:hidden;
+
+  padding-bottom:56.25%;
+
+  position:relative;
+
+  height:0;
+
+}
+
+.map-responsive iframe{
+
+  left:0;
+
+  top:0;
+
+  height:100%;
+
+  width:100%;
+
+  position:absolute;
+
+}
